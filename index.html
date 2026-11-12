@@ -1,12 +1,17 @@
 <!doctype html>
-<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>DOMtrail — Web Source Inspector</title>
+<html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AEM Where Is What</title>
 <style>body{font:17px/1.65 system-ui,sans-serif;color:#292033;background:#faf8fd;max-width:760px;margin:70px auto;padding:0 24px}header{display:flex;align-items:center;gap:16px}img{width:86px;height:86px}h1{font-size:40px;letter-spacing:-1.5px;line-height:1.15;margin:0}h2{font-size:21px;margin-top:36px}a{color:#6630a8}nav{display:flex;gap:24px;flex-wrap:wrap;margin-top:30px}footer{font-size:14px;color:#70657b;border-top:1px solid #dfd7e8;margin-top:46px;padding-top:20px}</style>
-<header><img src="icon.png" alt=""><h1>DOMtrail</h1></header>
+<header><img src="icon.png" alt=""><h1>AEM Where Is What</h1></header>
 <p><strong>Follow the content. Find the evidence.</strong></p>
-<p>DOMtrail — Web Source Inspector helps developers, content authors and QA teams investigate where selected webpage content comes from.</p>
+<p>AEM Where Is What helps developers, content authors and QA teams investigate where selected webpage content comes from.</p>
 <h2>Inspect source evidence</h2>
 <p>Click an element to inspect exposed CMS metadata, candidate fields in embedded page data, supported experiment signals and asset-delivery clues. Optional AEM author profiles let you open your own configured author environment.</p>
-<p>A matching value is a candidate, not proof of backend ownership. When there is insufficient evidence, DOMtrail reports “Source not verified”.</p>
+<p>A matching value is a candidate, not proof of backend ownership. When there is insufficient evidence, AEM Where Is What reports “Source not verified”.</p>
+<h2>How to use</h2>
+<ol><li>Open the website you want to inspect.</li><li>Click the extension in Chrome and choose <strong>Inspect an element</strong>.</li><li>Click text or an image to see the source card.</li><li>Expand <strong>Details</strong> to review metadata and candidate field paths. Run the optional deep scan for additional evidence.</li><li>For author navigation, configure your own AEM author profile in settings.</li><li>Press <strong>Escape</strong> to stop inspection.</li></ol>
+<h2>Examples</h2>
+<p>These screenshots show source evidence on demonstration content, including Adobe AEM and Salesforce CPQ record candidates, plus the settings screen.</p><p><img style="width:100%;height:auto;border-radius:12px" src="inspector.png" alt="Source card showing Contentstack metadata on sample storefront content"></p><p><img style="width:100%;height:auto;border-radius:12px" src="settings.png" alt="Optional AEM profiles and rules in extension settings"></p>
+<p><img style="width:100%;height:auto;border-radius:12px" src="aem.png" alt="Adobe AEM renderer metadata on demonstration content"></p><p><img style="width:100%;height:auto;border-radius:12px" src="salesforce-cpq.png" alt="Salesforce CPQ native record candidate on demonstration content"></p>
 <h2>Local analysis</h2>
 <p>Inspection starts when you invoke it. Analysis runs in your browser, with no developer-operated analytics or remote analysis service. Optional deep scan can re-request the inspected website's resources without cookies or credentials. Local settings and a compact recent inspection summary stay on your device.</p>
 <nav><a href="privacy.html">Privacy policy</a><a href="https://github.com/javadtaghia/domtrail/issues">Support and bug reports</a><a href="https://github.com/javadtaghia/domtrail">Project information</a></nav>
